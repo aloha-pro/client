@@ -10,8 +10,8 @@
     "preview": "vite preview",
     "lint": "eslint client --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
-    "deploy": "cp dist/index.html dist/404.html && gh-pages -d dist",
+    "build-storybook": "storybook build",
+    "deploy": "cp dist/index.html dist/404.html && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
