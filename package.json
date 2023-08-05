@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "lint": "eslint client --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "build-storybook": "storybook build -o dist/storybook",
     "deploy": "cp dist/index.html dist/404.html && gh-pages -d dist"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "@storybook/addon-links": "7.2.0",
     "@storybook/addon-onboarding": "1.0.8",
     "@storybook/blocks": "7.2.0",
+    "@storybook/builder-vite": "^7.2.1",
     "@storybook/react": "7.2.0",
     "@storybook/react-vite": "7.2.0",
     "@storybook/testing-library": "0.2.0",
@@ -35,10 +36,10 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.27",
     "storybook": "7.2.0",
     "tailwindcss": "^3.3.3",
-    "gh-pages": "^5.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }

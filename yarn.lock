@@ -1985,6 +1985,31 @@
     remark-slug "^6.0.0"
     rollup "^2.25.0 || ^3.3.0"
 
+"@storybook/builder-vite@^7.2.1":
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.2.1.tgz#7d4aa0d0942db13956a6df3637010fa013ba1805"
+  integrity sha512-D/RNcH6WAxMAMmC3w9wwgDbYUJ9SjSwc6NPcxGrKk9o0SWDsKWWx4r6mM0W5FJ7Wh11Ca46LLnPC3cFfEg4YDQ==
+  dependencies:
+    "@storybook/channels" "7.2.1"
+    "@storybook/client-logger" "7.2.1"
+    "@storybook/core-common" "7.2.1"
+    "@storybook/csf-plugin" "7.2.1"
+    "@storybook/mdx2-csf" "^1.0.0"
+    "@storybook/node-logger" "7.2.1"
+    "@storybook/preview" "7.2.1"
+    "@storybook/preview-api" "7.2.1"
+    "@storybook/types" "7.2.1"
+    "@types/find-cache-dir" "^3.2.1"
+    browser-assert "^1.2.1"
+    es-module-lexer "^0.9.3"
+    express "^4.17.3"
+    find-cache-dir "^3.0.0"
+    fs-extra "^11.1.0"
+    magic-string "^0.30.0"
+    remark-external-links "^8.0.0"
+    remark-slug "^6.0.0"
+    rollup "^2.25.0 || ^3.3.0"
+
 "@storybook/channels@7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-7.2.0.tgz#764c188f8a493126e98d328a0826b5c2666be061"
@@ -2235,6 +2260,14 @@
     "@storybook/csf-tools" "7.2.0"
     unplugin "^1.3.1"
 
+"@storybook/csf-plugin@7.2.1":
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-7.2.1.tgz#8d7b57a98914fb3b63bd8f167f7058c21c5d4d5b"
+  integrity sha512-qhxkKOsUjCS/hqsDgwgoM81ZXAXfTNrJJPHCs4Wa1dHoUVUn7rro7VANIO0GVNrRDnha3YR4fEmnD8kklLKmCQ==
+  dependencies:
+    "@storybook/csf-tools" "7.2.1"
+    unplugin "^1.3.1"
+
 "@storybook/csf-tools@7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.2.0.tgz#e1d785a845a6360395c0390439f716da29a34e94"
@@ -2373,10 +2406,35 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
+"@storybook/preview-api@7.2.1":
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-7.2.1.tgz#0de54f11237d837db918d672e7f4c2bc34abf8f7"
+  integrity sha512-WKecuOdeh9+og6bPR9KoQf/JCeSRPCcfZv9uNfJzAp3IiTnS3UpfCz+HBZzZJQrisgbd7OulNY400HQUmxY2Ag==
+  dependencies:
+    "@storybook/channels" "7.2.1"
+    "@storybook/client-logger" "7.2.1"
+    "@storybook/core-events" "7.2.1"
+    "@storybook/csf" "^0.1.0"
+    "@storybook/global" "^5.0.0"
+    "@storybook/types" "7.2.1"
+    "@types/qs" "^6.9.5"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    memoizerific "^1.11.3"
+    qs "^6.10.0"
+    synchronous-promise "^2.0.15"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
 "@storybook/preview@7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.2.0.tgz#e6d10f3eb310df2c2494ddc865549d3cd4a16791"
   integrity sha512-x3pOQFvVqJgfjC2Wt5AKyyym1031m6crl+lmxsDUtcenEhFazJ5iVLzlB5x4p+98QMkblHPqsx8JUMbAALV8Xw==
+
+"@storybook/preview@7.2.1":
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.2.1.tgz#2d3d81db84a7124a0bce6ccbf81623ec7c56da22"
+  integrity sha512-5mLNhuaePx3Zv8mO93Y/M+U7ppqV5bS13rPfMHcVmSb7mQ/3hN7zkF6NhPOX6LoBUxetHiAJh5dA5McNE3adLQ==
 
 "@storybook/react-dom-shim@7.2.0":
   version "7.2.0"
@@ -3938,9 +3996,9 @@ ejs@^3.1.8:
     jake "^10.8.5"
 
 electron-to-chromium@^1.4.477:
-  version "1.4.484"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.484.tgz#770358eba089471c5dae5719db3a5a4fbf02bfb2"
-  integrity sha512-nO3ZEomTK2PO/3TUXgEx0A97xZTpKVf4p427lABHuCpT1IQ2N+njVh29DkQkCk6Q4m2wjU+faK4xAcfFndwjvw==
+  version "1.4.485"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.485.tgz#fde3ee9ee8112a3414c0dfa545385ad08ec43408"
+  integrity sha512-1ndQ5IBNEnFirPwvyud69GHL+31FkE09gH/CJ6m3KCbkx3i0EVOrjwz4UNxRmN9H8OVHbC6vMRZGN1yCvjSs9w==
 
 email-addresses@^5.0.0:
   version "5.0.0"
@@ -4965,10 +5023,10 @@ is-callable@^1.1.3:
   resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.2.7.tgz#3bc2a85ea742d9e36205dcacdd72ca1fdc51b055"
   integrity sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==
 
-is-core-module@^2.11.0:
-  version "2.12.1"
-  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.12.1.tgz#0c0b6885b6f80011c71541ce15c8d66cf5a4f9fd"
-  integrity sha512-Q4ZuBAe2FUsKtyQJoQHlvP8OvBERxO3jEmy1I7hcRXcJBGGHFh/aJBswbXuS9sgrDH2QUO8ilkwNPHvHMd8clg==
+is-core-module@^2.13.0:
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.13.0.tgz#bb52aa6e2cbd49a30c2ba68c42bf3435ba6072db"
+  integrity sha512-Z7dk6Qo8pOCp3l4tsX2C5ZVas4V+UxwQodwZhLopL91TX8UyyHEXafPcyoeeWuLrwzHcr3igO78wNLwHJHsMCQ==
   dependencies:
     has "^1.0.3"
 
@@ -6583,11 +6641,11 @@ resolve-from@^5.0.0:
   integrity sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
 
 resolve@^1.1.7, resolve@^1.10.0, resolve@^1.14.2, resolve@^1.17.0, resolve@^1.22.2:
-  version "1.22.2"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.2.tgz#0ed0943d4e301867955766c9f3e1ae6d01c6845f"
-  integrity sha512-Sb+mjNHOULsBv818T40qSPeRiuWLyaGMa5ewydRLFimneixmVy2zdivRl+AF6jaYPC8ERxGDmFSiqui6SfPd+g==
+  version "1.22.4"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.4.tgz#1dc40df46554cdaf8948a486a10f6ba1e2026c34"
+  integrity sha512-PXNdCiPqDqeUou+w1C2eTQbNfxKSuMxqTCuvlmmMsk1NWHL5fRrhY6Pl0qEYYc6+QqGClco1Qj8XnjPego4wfg==
   dependencies:
-    is-core-module "^2.11.0"
+    is-core-module "^2.13.0"
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
@@ -6626,9 +6684,9 @@ rimraf@~2.6.2:
     glob "^7.1.3"
 
 "rollup@^2.25.0 || ^3.3.0", rollup@^3.25.2:
-  version "3.27.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.27.1.tgz#e6c7340889f33042b4c3247a2acb38ebcfc3a98c"
-  integrity sha512-tXNDFwOkN6C2w5Blj1g6ForKeFw6c1mDu5jxoeDO3/pmYjgt+8yvIFjKzH5FQUq70OKZBkOt0zzv0THXL7vwzQ==
+  version "3.27.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.27.2.tgz#59adc973504408289be89e5978e938ce852c9520"
+  integrity sha512-YGwmHf7h2oUHkVBT248x0yt6vZkYQ3/rvE5iQuVBh3WO8GcJ6BNeOkpoX1yMHIiBm18EMLjBPIoUDkhgnyxGOQ==
   optionalDependencies:
     fsevents "~2.3.2"
 
